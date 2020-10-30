@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="all-items">
+      <!--HEADER-->
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+      <!--SCORE BOARD-->
+      <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+
+        <!-- <div id="timer">
+          <div id="inputArea">
+          </div>
+    
+          <h1 id="time">0:00</h1>
+        </div> -->
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+      <!--RESULT-->
+      <div class="result">
+        <p style="filter: blur(0.7px);" ;>Start</p>
+      </div>
+      <!--R/P/S BUTTONS-->
+      <div class="choices">
+        <div id="rock" class="choice">
+          <img src="img/rock.png" />
+        </div>
+        <div id="paper" class="choice">
+          <img src="img/paper.png" />
+        </div>
+        <div id="scissor" class="choice">
+          <img src="img/scissors.png" />
+        </div>
+      </div>
+      <!--MESSAGE-->
+      <p id="action-message">Make your move.</p>
+    </div>
+    <div class="direction"><p id="direction">MOUSE UP</p></div>
+    <script src="app.js"></script>
+  </body>
+</html>
